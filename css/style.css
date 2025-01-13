@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Amita:wght@400;700&family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Gantari:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&family=Overpass:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Playwrite+CU:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&family=Playwrite+IT+Trad:wght@100..400&family=Poiret+One&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+body{ 
+    font-family: "Amaranth", serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;}
+
+
+/*--------------HEADER--------------*/
+
+header {
+    background-color:rgb(255, 0, 149);}
+
+header nav ul {
+    list-style: none;}
+
+header nav ul li a{
+    text-decoration: none;
+    color:  black;}
+
+
+/*--------------MAIN--------------*/
+
+main{
+    background-color: rgb(253, 203, 251);}
+
+/*--------------Hero--------------*/
+
+.hero{
+    text-align: center;
+    width: 100%; height: 500px;
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    padding: 50px;}
+
+.hero h1{
+    color: rgb(255, 0, 149);
+    justify-content: end;
+    padding: 20px;
+    font-size: 100px;}
+
+.hero p{color: rgb(255, 127, 249);
+    padding:30px;
+    font-size: 30px;}
+
+.hero .boton{ 
+    background-color: rgb(255, 0, 149);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 3px rgb(255, 127, 249);
+    padding: 30px;}
+
+.hero .boton a{list-style: none; color: aliceblue;}
+
+/*--------------Presentación--------------*/
+
+.presentacion h2{
+    color: rgb(255, 0, 149);
+    text-decoration: underline;
+    text-align: center; padding: 30px;}
+
+.presentacion p{ 
+    color: rgb(0, 0, 0); 
+    text-align: justify;
+    padding: 10px 90px;}
+
+.presentacion .texto{text-align: center;}
+
+/*--------------Datos importantes--------------*/
+
+.datosimportantes h2{color: rgb(255, 0, 149);
+text-decoration: overline;
+text-align: center;
+padding: 20px 0 0 0 ;}
+
+.datosimportantes .datosimportantes-container h3{ 
+    color: rgb(255, 0, 149);}
+
+.datosimportantes .datosimportantes-container {
+     display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.datosimportantes .card{
+    text-align: center;
+    margin: 30px 50px;}
+
+/*--------------Servicios--------------*/
+.servicios h2{
+    color: rgb(255, 0, 149);
+    text-decoration: underline;
+    text-align: center; 
+    padding: 30px;}
+
+.servicios p{
+    text-align: center;}
+
+.servicios ul{background-color: rgb(248, 224, 238); 
+padding: 30px;
+margin: 20px 150px;}
+
+.servicios ul li{
+    color: rgb(255, 0, 149);
+    text-align: center;
+    list-style: none;}
+
+/*--------------DiseñoUñas--------------*/
+
+    .disenosunas h2{
+        color: rgb(255, 0, 149);
+        text-decoration: underline;
+        text-align: center; 
+        padding: 30px;}
+
+
+    .carousel-item img {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto; 
+        width: 100%; 
+        max-width: 100%; 
+        height: auto; }
+
+
+/*--------------DiseñoPelo--------------*/
+
+    .disenopelo h2{ 
+        color: rgb(255, 0, 149);
+        text-decoration: underline;
+        text-align: center; 
+        padding: 30px;}
+
+    .disenopelo h3{
+        color: rgb(241, 62, 167); 
+        text-align: center;
+        padding: 20px;
+        text-decoration:underline;}
+
+/*--------------DiseñoOjos--------------*/
+
+.disenoojos h2{ 
+    color: rgb(255, 0, 149);
+    text-decoration: underline;
+    text-align: center; 
+    padding: 30px;}
+
+.disenoojos h3{ 
+    color: rgb(241, 62, 167); 
+    text-align: center;
+    padding: 20px; 
+    text-decoration:underline;}
+
+
+/*--------------ASIDE--------------*/
+
+
+aside{ 
+    background-color: rgb(253, 203, 251);
+    padding: 50px;
+}
+
+aside h2{color: rgb(255, 0, 149);
+    text-decoration: overline;
+    text-align: center;
+    padding: 20px 0 0 0 ;}
+
+.aside-container{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;}
+
+.aside-promo1{ 
+    background-image: url(../img/promo.jpg);
+    border:  3px solid;
+    border-color: rgb(3, 78, 97);
+    border-radius: 10px;
+    width: 450px;
+    height: 500x;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.aside-promo1 h3{
+    color: rgb(3, 78, 97);
+    text-decoration:underline;}
+
+.aside-promo2{ background-image: url(../img/alisados.jpg); 
+    border:  3px solid;
+    border-color: rgb(3, 78, 97);
+    border-radius: 10px;
+    width: 450px;
+    height: 500x;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);}
+    
+.aside-promo2 h3{
+    color: rgb(3, 78, 97);
+    text-decoration:underline;}
+
+.asideboton{
+    background-color: rgb(3, 78, 97)}
+
+.asideboton a{
+    list-style: none; color: aliceblue;}
+
+
+/*--------------FOOTER--------------*/
+
+footer{background-color: rgb(255, 0, 149);
+    width: 100%;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+footer a{ color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 80px;}
