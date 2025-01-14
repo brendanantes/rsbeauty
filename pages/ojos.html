@@ -8,166 +8,182 @@
     <link rel="stylesheet" href="../css/style.css">
   </head>
 
-
   <body>
 
-    <header> <!--ENCABEZADO-->
-      
-          <nav class="navbar navbar-expand-lg"><!-- BARRA DE NAVEGACION-->
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">RS Beauty</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/ojos.html">Ojos de ensueño</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/manicuria.html">Manos radiantes</a>
-                  </li>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/peluqueria.html">Estilo Capilar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+    <header> <!-- ENCABEZADO -->
+      <nav class="navbar navbar-expand-lg"> <!-- BARRA DE NAVEGACION -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">RS Beauty</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="../pages/servicios.html">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link" href="../pages/ojos.html">Ojos de ensueño</a></li>
+              <li class="nav-item"><a class="nav-link" href="../pages/manicuria.html">Manos radiantes</a></li>
+              <li class="nav-item"><a class="nav-link" href="../pages/peluqueria.html">Estilo Capilar</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
 
+    <main> <!-- CONTENIDO PRINCIPAL -->
 
-    <main> <!--CONTENIDO PRINCIPAL-->
+      <section class="hero"> <!-- SECCION DE CONTENIDO -->
+        <h1>RS Beauty</h1>
+        <p>EN ENERO APROVECHA 50% OFF EN LAMINADO DE CEJAS</p>
+        <button type="button" class="boton">
+          <a href="https://wa.me/1121565557" target="_blank">¡Solicitar turno!</a>
+        </button>
+      </section>
 
-        <section class="hero"> <!--SECCION DE CONTENIDO-->
-            <h1>RS Beauty</h1>
-            <p>EN ENERO APROVECHA 50% OFF EN LAMINADO DE CEJAS</p>
-            <button type="button" class="boton"><a href="https://wa.me/1121565557" target="_blank">¡Solicitar turno!</a></button>
-          </section>
+      <div class="disenoojos">
+        <section>
+          <h2>Ojos de Ensueño</h2>
+        </section>
 
-          <div class="disenoojos">
-   
-          <section>
-            <h2>Ojos de Ensueño</h2>
-          </section>
-  
-            <section class="pestañas"> <!--SECCION CARRUSEL PESTAÑAS-->
-              <h3>Pestañas</h3>
-              <div id="carouselPeinados" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                  <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <section class="pestañas"> <!-- SECCION CARRUSEL PESTAÑAS -->
+          <h3>Pestañas</h3>
+
+          <div class="container">
+            <section class="row justify-content-center">
+              <article class="col-12 col-md-6 py-5 d-flex justify-content-center align-items-center">
+                <p>¡Realza tu mirada con nuestras exclusivas extensiones de pestañas! ✨
+                  En RS Beauty, sabemos lo importante que es destacar tu mirada y sentirte segura con un look radiante. Por eso, te ofrecemos extensiones de pestañas de alta calidad que aportan longitud, volumen y un toque sofisticado a tu estilo.
+                </p>
+              </article>
+
+              <article class="col-12 col-md-6 py-5 d-flex justify-content-center align-items-center">
+                <div id="carouselPeinados" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselPeinados" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/pestanas1.png" class="d-block w-50" alt="Extensiones de pestañas 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/pestanas2.png" class="d-block w-50" alt="Extensiones de pestañas 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/pestanas3.png" class="d-block w-50" alt="Extensiones de pestañas 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/pestanas4.png" class="d-block w-50" alt="Extensiones de pestañas 4">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/pestanas5.png" class="d-block w-50" alt="Extensiones de pestañas 5">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/pestanas6.png" class="d-block w-50" alt="Extensiones de pestañas 6">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeinados" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselPeinados" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../img/pestanas1.png" class="d-block w-50" alt="Pestañas 1">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../img/pestanas2.png" class="d-block w-50" alt="Pestañas 2">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../img/pestanas3.png" class="d-block w-50" alt="Pestañas 4">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../img/pestanas4.png" class="d-block w-50" alt="Pestañas 5">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../img/pestanas6.png" class="d-block w-50" alt="Pestañas 6">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../img/pestanas5.png" class="d-block w-50" alt="Pestañas 3">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeinados" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselPeinados" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </section>
-            
-            <section class="cejas"> <!--SECCION CARRUSEL CEJAS-->
-              <h3>Cejas</h3>
-              <div id="carouselAlisados" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselAlisados" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselAlisados" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselAlisados" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselAlisados" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../img/cejas1.png" class="d-block w-50" alt="Cejas 1">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../img/cejas2.png" class="d-block w-50" alt="Cejas 2">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../img/cejas3.png" class="d-block w-50" alt="Cejas 3">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../img/cejas4.png" class="d-block w-50" alt="Cejas 4">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAlisados" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselAlisados" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+              </article>
             </section>
           </div>
- 
+        </section>
 
-    <aside>   <!--PROMOCION-->
+        <section class="cejas"> <!-- SECCION CARRUSEL CEJAS -->
+          <h3>Cejas</h3>
 
-    <h2>¡SORPRESA!</h2>
+          <div class="container">
+            <section class="row justify-content-center">
+              <article class="col-12 col-md-6 py-5 d-flex justify-content-center align-items-center">
+                <div id="carouselAlisados" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselAlisados" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselAlisados" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselAlisados" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselAlisados" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/cejas1.png" class="d-block w-50" alt="Diseño de cejas 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/cejas2.png" class="d-block w-50" alt="Diseño de cejas 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/cejas3.png" class="d-block w-50" alt="Diseño de cejas 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/cejas4.png" class="d-block w-50" alt="Diseño de cejas 4">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselAlisados" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselAlisados" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </article>
 
-    <div class="aside-container">
-    <div class="aside-promo1">
-      <h3>¡Oferta Especial!</h2>
-      <p>La primera semana de febrero vení con una amiga y obtené un 2x1 en manicuria.</p>
-      <button type="button" class="asideboton"><a href="https://wa.me/1121565557">¡Quiero más info!</a></button>
-    </div>
+              <article class="col-12 col-md-6 py-5 d-flex justify-content-center align-items-center">
+                <p>¡Transforma tu mirada con nuestras expertas en diseño de cejas!
+                Entendemos que unas cejas bien definidas pueden marcar la diferencia en tu rostro y resaltar tu belleza natural. Por eso, ofrecemos servicios de diseño de cejas personalizados que te ayudarán a lograr la forma perfecta para ti❤️</p>
+              </article>
 
-    <div class="aside-promo2">
-      <h3>¡Oferta Relampago!</h2>
-      <p>Las primeras 50 personas en escribirnos primero tendran un 20%off en alisado.</p>
-      <button type="button" class="asideboton"><a href="https://wa.me/1121565557">¡Lo necesito!</a></button>
-    </div>
-    </div>
+            </section>
+          </div>
+        </section>
+      </div>
+
+    </main>
+
+    <aside> <!-- PROMOCION -->
+      <section>
+        <h2>¡SORPRESA!</h2>
+      </section>
+
+      <section class="aside-container">
+        <div class="aside-promo1">
+          <h3>¡Oferta Especial!</h3>
+          <p>La primera semana de febrero vení con una amiga y obtené un 2x1 en manicuria.</p>
+          <button type="button" class="asideboton">
+            <a href="https://wa.me/1121565557">¡Quiero más info!</a>
+          </button>
+        </div>
+
+        <div class="aside-promo2">
+          <h3>¡Oferta Relámpago!</h3>
+          <p>Las primeras 50 personas en escribirnos primero tendrán un 20% off en alisado.</p>
+          <button type="button" class="asideboton">
+            <a href="https://wa.me/1121565557">¡Lo necesito!</a>
+          </button>
+        </div>
+      </section>
     </aside>
 
-
-    <footer id="contacto"> <!--PIE DE PAGINA-->
-       <a href="https://www.instagram.com/rsbeautyok/" target="_blank"><i class="bi bi-instagram">Instagram</i></a>
-       <a href="https://wa.me/1121565557" target="_blank"><i class="bi bi-whatsapp">WhatsApp</i></a> 
-       <a href="mailto: brendanantes1@gmail.com" target="_blank"><i class="bi bi-envelope-paper-heart">Correo Electronico</i></a> 
+    <footer id="contacto"> <!-- PIE DE PAGINA -->
+      <a href="https://www.instagram.com/rsbeautyok/" target="_blank"><i class="bi bi-instagram">Instagram</i></a>
+      <a href="https://wa.me/1121565557" target="_blank"><i class="bi bi-whatsapp">WhatsApp</i></a>
+      <a href="mailto: brendanantes1@gmail.com" target="_blank"><i class="bi bi-envelope-paper-heart">Correo Electronico</i></a>
     </footer>
 
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

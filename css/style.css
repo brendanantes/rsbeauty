@@ -2,121 +2,131 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 
-body{ 
-    font-family: "Amaranth", serif;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;}
+    body{ background-color: rgb(253, 203, 251);
+        font-family: "Amaranth", serif;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;}
 
 
 /*--------------HEADER--------------*/
 
-header {
-    background-color:rgb(255, 0, 149);}
+    header {
+        background-color:rgb(255, 0, 149);}
 
-header nav ul {
-    list-style: none;}
+    header nav ul {
+        list-style: none;}
 
-header nav ul li a{
-    text-decoration: none;
-    color:  black;}
+    header nav ul li a{
+        text-decoration: none;
+        color:  black;}
 
 
 /*--------------MAIN--------------*/
 
-main{
-    background-color: rgb(253, 203, 251);}
+    main{
+        background-color: rgb(253, 203, 251);}
 
 /*--------------Hero--------------*/
 
-.hero{
-    text-align: center;
-    width: 100%; height: 500px;
-    background-image: url(../img/hero.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    background-attachment:fixed;
-    padding: 50px;}
+    .hero{
+        text-align: center;
+        width: 100%; height: 500px;
+        background-image: url(../img/hero.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment:fixed;
+        padding: 50px;}
 
-.hero h1{
-    color: rgb(255, 0, 149);
-    justify-content: end;
-    padding: 20px;
-    font-size: 100px;}
+    .hero h1{
+        color: rgb(255, 0, 149);
+        justify-content: end;
+        padding: 20px;
+        font-size: 100px;}
 
-.hero p{color: rgb(255, 127, 249);
-    padding:30px;
-    font-size: 30px;}
+    .hero p{color: rgb(255, 127, 249);
+        padding:30px;
+        font-size: 30px;}
 
-.hero .boton{ 
-    background-color: rgb(255, 0, 149);
-    padding: 20px;
-    border-radius: 10px;
-    border: solid 3px rgb(255, 127, 249);
-    padding: 30px;}
+    .hero .boton{ 
+        background-color: rgb(255, 0, 149);
+        border-radius: 10px;
+        border: solid 3px rgb(255, 127, 249);
+        padding: 30px;}
 
-.hero .boton a{list-style: none; color: aliceblue;}
+    .hero .boton a{
+        list-style: none; color: aliceblue;}
 
 /*--------------Presentación--------------*/
 
-.presentacion h2{
-    color: rgb(255, 0, 149);
-    text-decoration: underline;
-    text-align: center; padding: 30px;}
+    .presentacion h2{
+        color: rgb(255, 0, 149);
+        text-decoration: underline;
+        text-align: center; padding: 30px;}
 
-.presentacion p{ 
-    color: rgb(0, 0, 0); 
-    text-align: justify;
-    padding: 10px 90px;}
+    .presentacion p{ 
+        color: rgb(0, 0, 0); 
+        text-align: justify;
+        padding: 10px 90px;}
 
-.presentacion .texto{text-align: center;}
+    .presentacion .texto{
+        text-align: center;}
 
 /*--------------Datos importantes--------------*/
 
-.datosimportantes h2{color: rgb(255, 0, 149);
-text-decoration: overline;
-text-align: center;
-padding: 20px 0 0 0 ;}
+    .datosimportantes h2{
+        color: rgb(255, 0, 149);
+        text-decoration: overline;
+        text-align: center;
+        padding: 20px 0 0 0 ;}
 
-.datosimportantes .datosimportantes-container h3{ 
-    color: rgb(255, 0, 149);}
+    .datosimportantes .datosimportantes-container h3{ 
+        color: rgb(255, 0, 149);}
 
-.datosimportantes .datosimportantes-container {
-     display: flex;
-    align-items: center;
-    justify-content: center;}
+    .datosimportantes .datosimportantes-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;}
 
-.datosimportantes .card{
-    text-align: center;
-    margin: 30px 50px;}
+    .datosimportantes .card{
+        text-align: center;
+        margin: 30px 50px;}
 
 /*--------------Servicios--------------*/
-.servicios h2{
-    color: rgb(255, 0, 149);
-    text-decoration: underline;
-    text-align: center; 
-    padding: 30px;}
 
-.servicios p{
-    text-align: center;}
+    .servicios h2{
+        color: rgb(255, 0, 149);
+        text-decoration: underline;
+        text-align: center; 
+        padding: 30px;}
 
-.servicios ul{background-color: rgb(248, 224, 238); 
-padding: 30px;
-margin: 20px 150px;}
+    .servicios p{
+        text-align: center;}
 
-.servicios ul li{
-    color: rgb(255, 0, 149);
-    text-align: center;
-    list-style: none;}
+    .servicios ul{background-color: rgb(248, 224, 238); 
+        padding: 30px;
+        margin: 20px 150px;}
+
+    .servicios ul li{
+        color: rgb(255, 0, 149);
+        text-align: center;
+        list-style: none;
+        padding: 8px;}
 
 /*--------------DiseñoUñas--------------*/
+
 
     .disenosunas h2{
         color: rgb(255, 0, 149);
         text-decoration: underline;
         text-align: center; 
         padding: 30px;}
+
+    .disenosunas .manos{
+        text-align: center; padding: 20px 100px;}
+
+    .disenosunas .justificado{text-align: center;}
 
 
     .carousel-item img {
@@ -140,88 +150,265 @@ margin: 20px 150px;}
         color: rgb(241, 62, 167); 
         text-align: center;
         padding: 20px;
-        text-decoration:underline;}
+        text-decoration:underline;
+        font-size: 30px;}
+
+    .disenopelo .pelo {
+        text-align: center; 
+        padding: 20px 100px; 
+        background-color: rgb(248, 224, 238); 
+        padding: 30px;
+        margin: 20px 150px; }
+
+
 
 /*--------------DiseñoOjos--------------*/
 
-.disenoojos h2{ 
-    color: rgb(255, 0, 149);
-    text-decoration: underline;
-    text-align: center; 
-    padding: 30px;}
+    .diseñoojos .pestañas p{
+        text-align: center }
 
-.disenoojos h3{ 
-    color: rgb(241, 62, 167); 
-    text-align: center;
-    padding: 20px; 
-    text-decoration:underline;}
+    .disenoojos h2{ 
+        color: rgb(255, 0, 149);
+        text-decoration: underline;
+        text-align: center; 
+        padding: 30px;}
+
+    .disenoojos h3{ 
+        color: rgb(241, 62, 167); 
+        text-align: center;
+        padding: 20px; 
+        text-decoration:underline;
+        font-size: 30px;}
+
+    .diseñoojos p{text-align: center;
+    margin: 20px;}
+
+    .disenoojos .pestañas{
+        background-color: rgb(248, 224, 238); 
+        padding: 30px;
+        margin: 20px 150px;}
+
+    .disenoojos .cejas{
+        background-color: rgb(248, 224, 238); 
+        padding: 30px;
+        margin: 20px 150px;}
+
 
 
 /*--------------ASIDE--------------*/
 
 
-aside{ 
-    background-color: rgb(253, 203, 251);
-    padding: 50px;
-}
+    aside{ 
+        background-color: rgb(253, 203, 251);
+        padding: 50px;
+    }
 
-aside h2{color: rgb(255, 0, 149);
-    text-decoration: overline;
-    text-align: center;
-    padding: 20px 0 0 0 ;}
+    aside h2{color: rgb(255, 0, 149);
+        text-decoration: overline;
+        text-align: center;
+        padding: 20px 0 0 0 ;}
 
-.aside-container{display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;}
+    .aside-container{display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;}
 
-.aside-promo1{ 
-    background-image: url(../img/promo.jpg);
-    border:  3px solid;
-    border-color: rgb(3, 78, 97);
-    border-radius: 10px;
-    width: 450px;
-    height: 500x;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-}
+    .aside-promo1{ 
+        background-image: url(../img/promo.jpg);
+        border:  3px solid;
+        border-color: rgb(3, 78, 97);
+        border-radius: 10px;
+        width: 450px;
+        height: 250px;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+    }
 
-.aside-promo1 h3{
-    color: rgb(3, 78, 97);
-    text-decoration:underline;}
+    .aside-promo1 h3{
+        color: rgb(3, 78, 97);
+        text-decoration:underline;}
 
-.aside-promo2{ background-image: url(../img/alisados.jpg); 
-    border:  3px solid;
-    border-color: rgb(3, 78, 97);
-    border-radius: 10px;
-    width: 450px;
-    height: 500x;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    color: rgb(0, 0, 0);}
-    
-.aside-promo2 h3{
-    color: rgb(3, 78, 97);
-    text-decoration:underline;}
+    .aside-promo2{ background-image: url(../img/alisados.jpg); 
+        border:  3px solid;
+        border-color: rgb(3, 78, 97);
+        border-radius: 10px;
+        width: 450px;
+        height: 250px;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        color: rgb(0, 0, 0);}
+        
+    .aside-promo2 h3{
+        color: rgb(3, 78, 97);
+        text-decoration:underline;}
 
-.asideboton{
-    background-color: rgb(3, 78, 97)}
+    .asideboton{
+        background-color: rgb(3, 78, 97)}
 
-.asideboton a{
-    list-style: none; color: aliceblue;}
+    .asideboton a{
+        list-style: none; color: aliceblue;}
 
 
 /*--------------FOOTER--------------*/
 
-footer{background-color: rgb(255, 0, 149);
-    width: 100%;
-    height: 200px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;}
+    footer{background-color: rgb(255, 0, 149);
+        width: 100%;
+        height: 200px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;}
 
-footer a{ color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 80px;}
+    footer a{ color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 80px;
+        font-size: 25px;}
+
+
+/*--------------media--------------*/
+@media screen and (max-width: 700px) {
+    .hero {
+        background-image: url(../img/hero2.jpg);
+        height: auto;
+    }
+
+    .hero p {
+        color: rgb(230, 33, 220);
+        padding: 15px;
+    }
+
+    .datosimportantes .datosimportantes-container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .datosimportantes .card {
+        margin: 20px auto;
+        max-width: 100%;
+    }
+
+    .datosimportantes p {
+        font-size: 20px;
+    }
+
+    .disenoojos .pestañas,
+    .disenoojos .cejas,
+    .disenopelo .pelo {
+        width: 100%;
+        padding: 30px;
+        margin: 20px 10px;
+    }
+
+    .aside-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .aside-promo1, .aside-promo2 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .aside-promo1 img,
+    .aside-promo2 img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .aside-promo1 h3,
+    .aside-promo2 h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .asideboton {
+        background-color: rgb(3, 78, 97);
+    }
+
+    .asideboton a {
+        list-style: none;
+        color: aliceblue;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+        padding: 5px;
+    }
+
+    .boton {
+        border-radius: 5px;
+        border: solid 1px rgb(255, 127, 249);
+        padding: 15px;
+    }
+
+    footer {
+        display: block;
+        width: auto;
+    }
+
+    footer a {
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .servicios h2 {
+        padding: 20px;
+    }
+
+    .servicios ul {
+        padding: 20px;
+        margin: 15px 50px;
+    }
+
+    .servicios ul li {
+        padding: 10px;
+    }
+
+    .aside-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside-promo1, .aside-promo2 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .aside-promo1 img,
+    .aside-promo2 img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .aside-promo1 h3,
+    .aside-promo2 h3 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .presentacion p {
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+}
