@@ -265,6 +265,7 @@
         padding: 80px;
         font-size: 25px;}
 
+        
 
 /*--------------media--------------*/
 @media screen and (max-width: 700px) {
@@ -406,6 +407,14 @@
 }
 
 @media screen and (max-width: 400px) {
+    .hero h1{
+        font-size: 45px;
+    }
+
+    .hero p{
+        font-size: 25px ;
+    }
+
     .presentacion p {
         padding: 10px;
         font-size: 18px;
