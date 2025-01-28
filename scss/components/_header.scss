@@ -1,0 +1,22 @@
+header{
+    background-color: $color-principal;
+
+    nav{
+        div{
+            div{
+                ul{ 
+                    list-style: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color:  $color-detalles;
+                            &:hover {
+                                color: $color-secundario;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

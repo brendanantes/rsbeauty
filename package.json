@@ -1,0 +1,19 @@
+{
+  "name": "rsbeauty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendanantes/rsbeauty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendanantes/rsbeauty/issues"
+  },
+  "homepage": "https://github.com/brendanantes/rsbeauty#readme",
+  "description": ""
+}
