@@ -12,13 +12,13 @@ main{
             padding: 50px;
 
         h1{
-            color: $color-secundario;
+            color: $color-principal;
             justify-content: end;
             padding: 20px;
             font-size: nth($font-size, 18);
         }
         p{
-            color: $color-principal;
+            color: $color-secundario;
             padding:30px;
             font-size: nth($font-size, 5);
             .animate__animated.animate__bounce {
@@ -31,7 +31,7 @@ main{
         }
         
         button{
-            background-color: $color-secundario;
+            background-color: $color-principal;
             border-radius: 10px;
             border: solid 3px $color-terciario;
             padding: 30px;

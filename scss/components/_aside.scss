@@ -15,9 +15,8 @@ aside{
         align-items: center;
         margin: 30px;
         .aside-promo1{
-            background-color: $color-fondo;
+            background-image: url(/img/portada.jpg);
             border:  3px solid;
-            border-color: $color-aside;
             border-radius: 10px;
             width: 450px;
             height: 250px;
@@ -41,10 +40,9 @@ aside{
             }
         }
         .aside-promo2{
-            background-color: $color-fondo;
+            background-image: url(/img/portada.jpg);
             border:  3px solid;
-            border-color: $color-aside;
-            border-radius: 10px;
+            border-radius: 10px ;
             width: 450px;
             height: 250px;
             padding: 40px;
